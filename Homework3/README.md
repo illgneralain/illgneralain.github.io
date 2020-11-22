@@ -1,3 +1,6 @@
+# Homework3
+latest repository for homework 3
+
 # CU-NYC-FSF-PT-10-2020-U-C
 
 
