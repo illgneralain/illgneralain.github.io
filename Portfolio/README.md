@@ -1,110 +1,86 @@
-# CU-NYC-FSF-PT-10-2020-U-C
+# Unit 02 CSS and Bootstrap Homework: Responsive Portfolio
+
+Responsive design ensures that web applications render well on a variety of devices and window or screen sizes. As a developer, you will likely be asked to create a mobile-first application or add responsive design to an existing application. 
 
 
+## Directions
 
-The user will be prompted to choose from the following password criteria: 8 and 128 characters
+First, you will use the Bootstrap CSS Framework to create a mobile responsive portfolio. How do you deliver this? Here are some guidelines:
 
-The user will recieve a confirm for:
-Password containing special characters, numbers, and uppercase
-Either 4 variables individual ones, or 3 with toLowerCase to Uppercase conversion
-This will randomly generate a selection or randomly select array data, so math.random and math.floor is used.
-The application validates user input and ensures that at least one character type is selected.
-If, else if statement is utilized 
-Once all prompts are answered, the user is presented with a password matching the answered prompts. Displaying the generated password in an alert and the attempt to write the password to the page was made as well.
-Event listener should determine the password output with function to populate the value into the test area.
+* Create the following files files: `index.html`, `portfolio.html` and `contact.html`.
 
-Homework Task given to Alain Paul is below 
+* Using Bootstrap, develop your portfolio site with the following items:
 
+   * A navbar
 
-''''''''''''''''''''''''''''''''''''''''
+   * A responsive layout
 
-# 03 JavaScript: Password Generator
+   * Responsive images
 
-## Your Task
+* The Bootstrap portfolio should minimize the use of media queries.
 
-This week’s homework requires you to create an application that an employee can use to generate a random password based on criteria they’ve selected by modifying starter code. This app will run in the browser, and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean and polished user interface that is responsive, ensuring that it adapts to multiple screen sizes.
+* Screenshots are provided as a reference in the `Assets/Images` folder. Your app does not need to be _exactly_ like the images. Use Bootstrap to create a similar, responsive layout.
 
-The password can include special characters. If you’re unfamiliar with these, see this [list of Password Special Characters from the OWASP Foundation](https://www.owasp.org/index.php/Password_special_characters).
+### Hints
 
-## User Story
+* Use Bootstrap's grid system (containers, rows, and columns).
 
-```
-AS AN employee with access to sensitive data
-I WANT to randomly generate a password that meets certain criteria
-SO THAT I can create a strong password that provides greater security
-```
+* On an `xs` screen, content should take up the entire screen. On `sm` and larger screens, you should have some margins on the left and right sides of the screen. Check out various sites on your mobile device vs. your computer to see examples of these differences.
 
-## Acceptance Criteria
+* Use an HTML validation service to ensure that each page has valid HTML.
 
-```
-GIVEN I need a new, secure password
-WHEN I click the button to generate a password
-THEN I am presented with a series of prompts for password criteria
-WHEN prompted for password criteria
-THEN I select which criteria to include in the password
-WHEN prompted for the length of the password
-THEN I choose a length of at least 8 characters and no more than 128 characters
-WHEN prompted for character types to include in the password
-THEN I choose lowercase, uppercase, numeric, and/or special characters
-WHEN I answer each prompt
-THEN my input should be validated and at least one character type should be selected
-WHEN all prompts are answered
-THEN a password is generated that matches the selected criteria
-WHEN the password is generated
-THEN the password is either displayed in an alert or written to the page
-```
+### Minimum Requirements
 
-## Mock-Up
+* Functional, deployed application
 
-The following image shows the web application's appearance and functionality:
+* GitHub repository with README describing the project
 
-![password generator demo](./Assets/03-javascript-homework-demo.png)
+* Navbar must be consistent on each page.
 
-## Grading Requirements
+* Navbar on each page must contain links to Home/About, Contact, and Portfolio pages.
 
-This homework is graded based on the following criteria: 
+* All links must work.
 
-### Technical Acceptance Criteria: 40%
+* Must use semantic html.
 
-* Satisfies all of the above acceptance criteria plus the following:
+* Each page must have valid and correct HTML. (use a validation service)
 
-  * The homework should not produce any errors in the console when you inspect it using Chrome DevTools.
+* Must contain your personalized information. (bio, name, images, links to social media, etc.)
 
-### Deployment: 32%
+* Must properly utilize Bootstrap components and grid system.
 
-* Application deployed at live URL.
+### Bonus
 
-* Application loads with no errors.
+* Using Bootstrap, make a sticky footer and use sub-rows and sub-columns on your portfolio site (**Hint:** Check out the Bootstrap documentation).
 
-* Application GitHub URL submitted.
+## Commit Early and Often
 
-* GitHub repository that contains application code.
+One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
 
-### Application Quality: 15%
+* Your commit history is a signal to employers that you are actively working on projects and learning new skills.
 
-* Application user experience is intuitive and easy to navigate.
+* Your commit history allows you to revert your codebase in the event that you need to return to a previous state.
 
-* Application user interface style is clean and polished.
+Follow these guidelines for committing:
 
-* Application resembles the mock-up functionality provided in the homework instructions.
+* Make single-purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits.
 
-### Repository Quality: 13%
+* Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history.
 
-* Repository has a unique name.
+* Don't commit half-done work, for the sake of your collaborators (and your future self!).
 
-* Repository follows best practices for file structure and naming conventions.
+* Test your application before you commit to ensure functionality at every step in the development process.
 
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
+We would like you to have well over 200 commits by graduation, so commit early and often!
 
-* Repository contains multiple descriptive commit messages.
+## Submission on BCS
 
-* Repository contains quality README file with description, screenshot, and link to deployed application.
+You are required to submit the following:
 
+* The URLs of the deployed applications
 
-## Review
+* The URLs of the GitHub repositories
 
-You are required to submit the following for review:
+- - -
 
-* The URL of the deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
+© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
